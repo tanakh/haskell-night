@@ -1,0 +1,17 @@
+ファイル説明
+
+・Main.hs
+    プレゼンのメインスクリプト
+・NicoTwitter.hs 
+    Twitterのコメントをニコニコ動画風に流すプラグイン
+
+・hnight.zip 
+    Windows向けコンパイル済みバイナリ
+
+コンパイル方法
+
+・次のHaskellライブラリをインストールします
+  ・http://github.com/tanakh/MonadPoint
+  ・http://github.com/tanakh/http-easy
+
+・cabal configure --user && cabal build でコンパイルできます
